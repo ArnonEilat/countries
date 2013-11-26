@@ -2,7 +2,7 @@ from bottle import route, run, template, get, post, request
 from cgi import escape
 
 
-def html_table(t):
+def html_table(t):  
     s = """<table border="1">"""
     for r in range(1, t + 1):
         s += """<tr>"""
